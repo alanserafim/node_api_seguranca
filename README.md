@@ -14,3 +14,6 @@ API em Node.js para aplicação dos conceitos de segurança, autenticação e au
 * Criar CRUD de permissões para definir quais as permissões os usuários, ou perfis de usuário, irão ter na API;
 * Criar referência entre tabelas no banco de dados para saber quais são as primaryKey e foreignKey das tabelas;
 * Fazer o relacionamento entre tabelas no banco de dados para saber como os cadastros dos registros vão se comportar.
+* Cadastrar perfis e permissões em usuários para diferenciar o acesso de acordo com os níveis hierárquicos dentro da API;
+* Cadastrar permissões nos perfis, diferenciando as permissões para cada tipo de funcionário que irá acessar a API
+* Utilizar funções alias do Sequelize para facilitar as ações entre tabelas relacionadas.
