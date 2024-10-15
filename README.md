@@ -10,3 +10,7 @@ API em Node.js para aplicação dos conceitos de segurança, autenticação e au
 * Criar middleware para verificar se usuários estão autenticados na API;
 * Armazenar informações do usuário nos dados da requisição para utilizar dentro das controllers e services;
 * Criar hash únicos para serem utilizados na geração de token JWT.
+* Criar CRUD de perfis de usuário (Roles) para definir quais os tipos de usuários vamos ter na API;
+* Criar CRUD de permissões para definir quais as permissões os usuários, ou perfis de usuário, irão ter na API;
+* Criar referência entre tabelas no banco de dados para saber quais são as primaryKey e foreignKey das tabelas;
+* Fazer o relacionamento entre tabelas no banco de dados para saber como os cadastros dos registros vão se comportar.
