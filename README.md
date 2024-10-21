@@ -17,3 +17,6 @@ API em Node.js para aplicação dos conceitos de segurança, autenticação e au
 * Cadastrar perfis e permissões em usuários para diferenciar o acesso de acordo com os níveis hierárquicos dentro da API;
 * Cadastrar permissões nos perfis, diferenciando as permissões para cada tipo de funcionário que irá acessar a API
 * Utilizar funções alias do Sequelize para facilitar as ações entre tabelas relacionadas.
+* Criar middleware de perfis de usuário para verificar quais os tipos de usuários podem ter acesso a um determinado endpoint;
+* Criar middleware de permissões do usuário para verificar quais as permissões podem ter acesso a um determinado endpoint;
+* Criar middleware de permissões de perfis de usuário, para verificar quais as permissões por perfil de usuário podem ter acesso a um determinado endpoint.
